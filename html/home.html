@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: url(../img/img/wall-wooden-cubes.avif);
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        color: #343a40;
+        line-height: 1;
+        display: flex;
+        justify-content: center;
+      }
+
+      table {
+        width: 800px;
+        margin-top: 100px;
+        border-collapse: collapse;
+        font-size: 18px;
+      }
+
+      th,
+      td {
+        padding: 16px 24px;
+        text-align: left;
+      }
+
+      thead th {
+        background-color: #08697f;
+        color: #000000;
+        width: 25%;
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: #f8f9fa;
+      }
+
+      tbody tr:nth-child(even) {
+        background-color: #e9ecef;
+      }
+      tbody tr:hover {
+        background-color: #5baad8;
+        transform: scale(1.1);
+        color: #fff;
+      }
+      thead:hover {
+        transform: scaleX(1.3);
+      }
+      h2:hover {
+        font-size: 50px;
+        color: #08697f;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <table>
+        <caption>
+          <h2>Travel Country & City Price</h2>
+          <br /><br />
+        </caption>
+        <thead class="thead">
+          <tr>
+            <th>No/</th>
+            <th>Country Name</th>
+            <th>City Name</th>
+            <th>Price Value</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          <tr>
+            <td>1</td>
+            <td>France</td>
+            <td>Paris</td>
+            <td>100$</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Brasil</td>
+            <td>Rio de Janeryo</td>
+            <td>100$</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>Japan</td>
+            <td>Tokio</td>
+            <td>300$</td>
+          </tr>
+
+          <tr>
+            <td>4</td>
+            <td>Uzbekistan</td>
+            <td>Bukhara</td>
+            <td>500$</td>
+          </tr>
+
+          <tr>
+            <td>5</td>
+            <td>China</td>
+            <td>Beijing</td>
+            <td>600$</td>
+          </tr>
+
+          <tr>
+            <td>6</td>
+            <td>Russia</td>
+            <td>Moskva</td>
+            <td>300$</td>
+          </tr>
+
+          <tr>
+            <td>7</td>
+            <td>Italy</td>
+            <td>Rim</td>
+            <td>700$</td>
+          </tr>
+
+          <tr>
+            <td>8</td>
+            <td>Spain</td>
+            <td>Madrid</td>
+            <td>900$</td>
+          </tr>
+
+          <tr>
+            <td>9</td>
+            <td>Portugaliya</td>
+            <td>Lissabon</td>
+            <td>800$</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
